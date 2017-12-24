@@ -1,1 +1,3 @@
 redsocial
+
+-comand: mongod

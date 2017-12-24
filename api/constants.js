@@ -6,6 +6,9 @@ var Constants = {
     },
     App: {
         port: 3800
+    },
+    jwt: {
+        key: 'kawkbghgghyh665'
     }
 }
 module.exports = Constants 
