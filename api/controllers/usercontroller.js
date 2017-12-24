@@ -4,6 +4,7 @@ var User = require('../models/user')
 var functions = require('../common/functions')
 var jwtfunctions = require('../services/jwt')
 
+
 function saveUser(req, res) {
     var params = req.body
     var user = new User

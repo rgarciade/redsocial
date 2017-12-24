@@ -19,6 +19,4 @@ jwtfunctions.createToken = (user) => {
     return jwt.encode(payload, Constants.jwt.key)
 
 }
-
-
 module.exports = jwtfunctions
